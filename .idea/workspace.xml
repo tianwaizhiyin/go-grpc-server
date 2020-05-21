@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c715f08-90e5-4579-8b54-19da553629bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pbfiles/Prod.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/ProdService.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/goTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/goTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keys/server.crt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keys/server_no_password.key" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/goTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/go-grpc-server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mypackage/mypackage.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/ProdService.go" beforeDir="false" afterPath="$PROJECT_DIR$/services/ProdService.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +29,11 @@
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
+    <option name="urls">
+      <list>
+        <option value="file://$USER_HOME$/go" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1bncov1K61H7mCekGDc4puAEOu0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -37,16 +42,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
-    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\golang\gopath\src\go-grpc-server\keys" />
       <recent name="D:\golang\gopath\src\goTest" />
       <recent name="D:\golang\gopath\src\goTest\pbfiles" />
       <recent name="D:\golang\gopath\src\goTest\goPackage\goroutine" />
@@ -65,9 +71,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/tianwaizhiyin/goTest.git">
+  <component name="RunManager" selected="Go Build.go build main.go">
     <configuration name="go build github.com/tianwaizhiyin/goTest.git" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="goTest" />
+      <module name="go-grpc-server" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/main.go" />
@@ -76,7 +82,7 @@
       <method v="2" />
     </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="goTest" />
+      <module name="go-grpc-server" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/main.go" />
@@ -86,8 +92,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build github.com/tianwaizhiyin/goTest.git" />
         <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build github.com/tianwaizhiyin/goTest.git" />
       </list>
     </recent_temporary>
   </component>
