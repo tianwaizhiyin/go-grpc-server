@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c715f08-90e5-4579-8b54-19da553629bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/helper/CertHelper.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/httpserver.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pbfiles/google/api/annotations.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pbfiles/google/api/http.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pbfiles/google/api/httpbody.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pbfiles/google/rpc/code.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pbfiles/google/rpc/error_details.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pbfiles/google/rpc/status.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pbfiles/Prod.proto" beforeDir="false" afterPath="$PROJECT_DIR$/pbfiles/Prod.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/Prod.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/services/Prod.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpserver.go" beforeDir="false" afterPath="$PROJECT_DIR$/httpserver.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

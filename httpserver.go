@@ -19,8 +19,9 @@ func main()  {
 		log.Fatal(err)
 	}
 
+
 	httpServer := &http.Server{
-		Addr:":8080",
+		Addr:":8082",
 		Handler:gwmux,
 	}
 	httpServer.ListenAndServe()
