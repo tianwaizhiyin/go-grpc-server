@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c715f08-90e5-4579-8b54-19da553629bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/keys/server.crt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keys/server_no_password.key" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/goTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/go-grpc-server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cert/ca.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cert/server.key" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cert/server.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/ProdService.go" beforeDir="false" afterPath="$PROJECT_DIR$/services/ProdService.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,10 +46,13 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../go-grpc-client" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\golang\gopath\src\go-grpc-server\cert" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\golang\gopath\src\go-grpc-server\keys" />
       <recent name="D:\golang\gopath\src\goTest" />

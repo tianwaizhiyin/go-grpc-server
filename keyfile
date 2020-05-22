@@ -1,0 +1,20 @@
+1、双向认证
+生成根证书
+genrsa -out ca.key 2048
+req -new -x509 -days 3650 -key ca.key -out ca.pem
+
+生成服务端证书
+genrsa -out server.key 2048
+req -new -key server.key -out server.csr
+x509 -req -sha256 -CA ca.pem -CAkey ca.key -CAcreateserial -days 3650 -in server.csr -out server.pem
+
+生成客户端证书
+ecparam -genkey -name secp384r1 -out client.key
+req -new -key client.key -out client.csr
+x509 -req -sha256 -CA ca.pem -CAkey ca.key -CAcreateserial -days 3650 -in client.csr -out client.pem
+
+2、创建单项证书步骤
+genrsa -des3 -out server.key 2048
+req -new -key server.key -out server.csr
+rsa -in server.key -out server_no_password.key
+x509 -req -days 365 -in server.csr -signkey server_no_password.key -out server.crt
