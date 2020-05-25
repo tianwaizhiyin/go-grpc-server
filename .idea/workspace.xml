@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c715f08-90e5-4579-8b54-19da553629bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/gen.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pbfiles/Models.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/httpserver.go" beforeDir="false" afterPath="$PROJECT_DIR$/httpserver.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pbfiles/Prod.proto" beforeDir="false" afterPath="$PROJECT_DIR$/pbfiles/Prod.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/Prod.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/services/Prod.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/ProdService.go" beforeDir="false" afterPath="$PROJECT_DIR$/services/ProdService.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +46,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pbfiles" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../go-grpc-client" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
@@ -70,7 +74,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build httpserver.go">
+  <component name="RunManager" selected="Go Build.go build github.com/tianwaizhiyin/go-grpc-server.git">
     <configuration name="go build github.com/tianwaizhiyin/go-grpc-server.git" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-grpc-server" />
       <working_directory value="$PROJECT_DIR$" />
@@ -109,8 +113,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build httpserver.go" />
         <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build httpserver.go" />
         <item itemvalue="Go Build.go build github.com/tianwaizhiyin/go-grpc-server.git" />
         <item itemvalue="Go Build.go build github.com/tianwaizhiyin/goTest.git" />
       </list>
