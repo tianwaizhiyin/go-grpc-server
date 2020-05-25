@@ -9,7 +9,8 @@ type ProdService struct {
 }
 
 func (this *ProdService) GetProdSInfo(context.Context, *ProdRequest) (*ProdModel, error)  {
-	ret := ProdModel{ProdId:101,
+	ret := ProdModel{
+		ProdId:101,
 		ProdName:"测试商品",
 		ProdPrice:20.5,
 	}
